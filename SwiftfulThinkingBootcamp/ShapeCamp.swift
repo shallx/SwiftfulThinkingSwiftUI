@@ -11,12 +11,14 @@ struct ShapeCamp: View {
     var body: some View {
 //        Ellipse()
 //        Capsule(style: .circular)
-        RoundedRectangle(cornerRadius: 6)
 //        Circle()
-            .trim(from: 0.2, to: 1)
+        Rectangle()
+            .trim(from: 0.5, to: 1)
+            .fill(Color.blue)
+            .frame(width: 200, height: 200)
 //            .stroke(.red, style: StrokeStyle(lineWidth: 4,
 //                lineCap: .butt, dash: [10,10]))
-            .frame(width: 300, height: 200)
+            
     }
 }
 

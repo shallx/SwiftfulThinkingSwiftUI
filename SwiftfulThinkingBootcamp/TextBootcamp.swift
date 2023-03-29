@@ -4,12 +4,15 @@ struct TextBootcamp: View {
     var body: some View {
         Text("Hello Earth")
 //            .font(.title)
-//            .fontWeight(.heavy)
-//            .underline()
-//            .italic()
-            
+            .kerning(2)
+            .underline()
+            .italic()
             .frame(width: 200, height: 100, alignment: .center)
             .border(.black, width: 3)
+            .padding(.leading, 4)
+            .multilineTextAlignment(.center)
+            .foregroundColor(.green)
+            .font(.system(size: 20, weight: .heavy, design: .rounded))
             .minimumScaleFactor(0.1)
     }
 }

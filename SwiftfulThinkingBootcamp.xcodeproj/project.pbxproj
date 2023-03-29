@@ -13,6 +13,7 @@
 		63642B4529D40AD300031C3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63642B4429D40AD300031C3B /* Preview Assets.xcassets */; };
 		63642B4C29D4125500031C3B /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63642B4B29D4125500031C3B /* TextBootcamp.swift */; };
 		63642B4E29D41E0100031C3B /* ShapeCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63642B4D29D41E0100031C3B /* ShapeCamp.swift */; };
+		63642B5029D441D600031C3B /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63642B4F29D441D600031C3B /* ColorsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		63642B4429D40AD300031C3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63642B4B29D4125500031C3B /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		63642B4D29D41E0100031C3B /* ShapeCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCamp.swift; sourceTree = "<group>"; };
+		63642B4F29D441D600031C3B /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 				63642B3D29D40AD100031C3B /* SwiftfulThinkingBootcampApp.swift */,
 				63642B3F29D40AD100031C3B /* ContentView.swift */,
 				63642B4B29D4125500031C3B /* TextBootcamp.swift */,
+				63642B4F29D441D600031C3B /* ColorsBootcamp.swift */,
+				63642B4D29D41E0100031C3B /* ShapeCamp.swift */,
 				63642B4129D40AD300031C3B /* Assets.xcassets */,
 				63642B4329D40AD300031C3B /* Preview Content */,
-				63642B4D29D41E0100031C3B /* ShapeCamp.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63642B5029D441D600031C3B /* ColorsBootcamp.swift in Sources */,
 				63642B4E29D41E0100031C3B /* ShapeCamp.swift in Sources */,
 				63642B4029D40AD100031C3B /* ContentView.swift in Sources */,
 				63642B4C29D4125500031C3B /* TextBootcamp.swift in Sources */,
