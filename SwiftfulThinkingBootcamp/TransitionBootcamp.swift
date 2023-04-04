@@ -16,7 +16,8 @@ struct TransitionBootcamp: View {
             if showView {
                 RoundedRectangle(cornerRadius: 16)
                     .frame(height: 400)
-                    .transition(.asymmetric(insertion: AnyTransition.move(edge: .bottom).animation(Animation.easeOut.delay(0.5)), removal: AnyTransition.opacity.animation(.easeOut)))
+                    .transition(AnyTransition.asymmetric(insertion: .move(edge: .bottom), removal: .move(edge: .top)))
+                    .animation(.default,value: showView)
             }
         }
         .edgesIgnoringSafeArea(.bottom)
@@ -27,6 +28,8 @@ struct TransitionBootcamp: View {
 
 struct TransitionBootcamp_Previews: PreviewProvider {
     static var previews: some View {
-        TransitionBootcamp()
+        VStack {
+            TransitionBootcamp()
+        }
     }
 }

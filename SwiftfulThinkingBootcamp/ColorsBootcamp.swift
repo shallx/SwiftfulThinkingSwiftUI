@@ -19,6 +19,7 @@ struct ColorsBootcamp: View {
 struct ColorsBootcamp_Previews: PreviewProvider {
     static var previews: some View {
         ColorsBootcamp()
+            .preferredColorScheme(.dark)
             
             
     }
