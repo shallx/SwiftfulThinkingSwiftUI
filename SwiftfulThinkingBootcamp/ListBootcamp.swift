@@ -4,6 +4,7 @@ struct ListBootcamp: View {
     @State var fruits: [String] = [
         "apple", "orange", "banana", "peach"
     ]
+    /// <#Description#>
     var body: some View {
         NavigationView {
             List {
@@ -11,15 +12,19 @@ struct ListBootcamp: View {
                     ForEach(fruits, id: \.self) { fruit in
                         Text(fruit.capitalized)
                     }
-//                    .onDelete { index in
-//                        fruits.remove(atOffsets: index)
-//                    }
-                    .onDelete(perform: delete)
+                    .onDelete { index in
+                        fruits.remove(atOffsets: index)
+                    }
+//                    .onDelete(perform: delete)
                     .onMove { frm, to in
                         fruits.move(fromOffsets: frm, toOffset: to)
                     }
+                    .listRowBackground(Color.blue)
+                    .listRowSeparatorTint(Color.white)
+                    
                 }
             }
+//            .listStyle(InsetGroupedListStyle())
             .navigationTitle("Grocery List")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
