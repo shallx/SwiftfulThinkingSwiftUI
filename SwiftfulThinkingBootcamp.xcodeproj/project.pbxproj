@@ -49,6 +49,8 @@
 		63C68B3B29DE9E9700DB4455 /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C68B3A29DE9E9700DB4455 /* PickerBootcamp.swift */; };
 		63C68B3D29DEC06500DB4455 /* ColorPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C68B3C29DEC06500DB4455 /* ColorPickerBootcamp.swift */; };
 		63C68B4029DEC43E00DB4455 /* DatePickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C68B3F29DEC43E00DB4455 /* DatePickerBootcamp.swift */; };
+		63CED3E229F13CE50099CD44 /* CustomListSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED3E129F13CE50099CD44 /* CustomListSwipe.swift */; };
+		63CED3E429F14DB60099CD44 /* FocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CED3E329F14DB60099CD44 /* FocusState.swift */; };
 		63DA3FA329E3FDCE00D79B3F /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA3FA229E3FDCE00D79B3F /* ShimmerView.swift */; };
 		63DEBA0D29ED1DA8003F021C /* SafetyUnwrapBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEBA0C29ED1DA8003F021C /* SafetyUnwrapBootcamp.swift */; };
 		63DEBA0F29ED26FB003F021C /* MapBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DEBA0E29ED26FB003F021C /* MapBootcamp.swift */; };
@@ -105,6 +107,8 @@
 		63C68B3A29DE9E9700DB4455 /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
 		63C68B3C29DEC06500DB4455 /* ColorPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBootcamp.swift; sourceTree = "<group>"; };
 		63C68B3F29DEC43E00DB4455 /* DatePickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBootcamp.swift; sourceTree = "<group>"; };
+		63CED3E129F13CE50099CD44 /* CustomListSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListSwipe.swift; sourceTree = "<group>"; };
+		63CED3E329F14DB60099CD44 /* FocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusState.swift; sourceTree = "<group>"; };
 		63DA3FA229E3FDCE00D79B3F /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		63DEBA0C29ED1DA8003F021C /* SafetyUnwrapBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyUnwrapBootcamp.swift; sourceTree = "<group>"; };
 		63DEBA0E29ED26FB003F021C /* MapBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBootcamp.swift; sourceTree = "<group>"; };
@@ -198,6 +202,8 @@
 				63BEEAB229EFF14D00FB9650 /* BackgroundMaterialBootcamp.swift */,
 				63BEEAB429EFFA5800FB9650 /* TextSelectionBootcamp.swift */,
 				63BEEAB629EFFEA000FB9650 /* ButtonStyleBootcamp.swift */,
+				63CED3E129F13CE50099CD44 /* CustomListSwipe.swift */,
+				63CED3E329F14DB60099CD44 /* FocusState.swift */,
 				63642B4129D40AD300031C3B /* Assets.xcassets */,
 				63642B4329D40AD300031C3B /* Preview Content */,
 			);
@@ -303,6 +309,7 @@
 				63E4B56A29EEA26200703B97 /* AppStorageBootcamp.swift in Sources */,
 				63C68B3D29DEC06500DB4455 /* ColorPickerBootcamp.swift in Sources */,
 				63C68B3929DE98C200DB4455 /* ToggleBootcamp.swift in Sources */,
+				63CED3E229F13CE50099CD44 /* CustomListSwipe.swift in Sources */,
 				639CB1FC29D6F1530087A6C8 /* StateBootcamp.swift in Sources */,
 				63599A0C29DD503400D8FC0D /* ContextMenuBootcamp.swift in Sources */,
 				63599A0829DD3EC500D8FC0D /* AlertBootcamp.swift in Sources */,
@@ -320,6 +327,7 @@
 				63DEBA0D29ED1DA8003F021C /* SafetyUnwrapBootcamp.swift in Sources */,
 				6301D86929DAD5B000C2BF9F /* TransitionBootcamp.swift in Sources */,
 				63642B4C29D4125500031C3B /* TextBootcamp.swift in Sources */,
+				63CED3E429F14DB60099CD44 /* FocusState.swift in Sources */,
 				63DEBA0F29ED26FB003F021C /* MapBootcamp.swift in Sources */,
 				63BEEAB329EFF14D00FB9650 /* BackgroundMaterialBootcamp.swift in Sources */,
 				63DEBA1129ED5BAD003F021C /* UserModelBootcamp.swift in Sources */,
