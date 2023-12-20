@@ -13,6 +13,7 @@ struct ImageBootcamp: View {
             Image("goku")
                 .resizable()
                 .scaledToFill()
+//                .aspectRatio(contentMode: .fill)
                 .frame(width: 300, height: 300)
     //            .cornerRadius(150)
                 .clipShape(

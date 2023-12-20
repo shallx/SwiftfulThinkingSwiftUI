@@ -7,7 +7,10 @@ struct TransitionBootcamp: View {
             VStack {
                 
                 Button("Button") {
-                    showView.toggle()
+                    
+                    withAnimation {
+                        showView.toggle()
+                    }
                 }
                 Spacer()
             }
@@ -16,8 +19,10 @@ struct TransitionBootcamp: View {
             if showView {
                 RoundedRectangle(cornerRadius: 16)
                     .frame(height: 400)
-                    .transition(AnyTransition.asymmetric(insertion: .move(edge: .bottom), removal: .move(edge: .top)))
-                    .animation(.default,value: showView)
+//                    .transition(.move(edge: .bottom))
+                    .transition(AnyTransition.opacity.animation(.default))
+//                    .transition(AnyTransition.asymmetric(insertion: .move(edge: .bottom), removal: .move(edge: .top)))
+//                    .animation(.default)
             }
         }
         .edgesIgnoringSafeArea(.bottom)

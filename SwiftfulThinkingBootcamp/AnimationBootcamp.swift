@@ -5,7 +5,9 @@ struct AnimationBootcamp: View {
     var body: some View {
         VStack {
             Button("Button") {
-                withAnimation {
+                withAnimation(
+                    Animation.default.repeatCount(5, autoreverses: false)
+                ) {
                     isAnimated.toggle()
                 }
             }

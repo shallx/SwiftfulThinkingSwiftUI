@@ -11,8 +11,22 @@ struct GridBootcamp: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columns, spacing: 30, pinnedViews: [.sectionHeaders]){
-                Section(header: Text("Heading")
+                Section(header: Text("Heading 1")
                             .foregroundColor(.white)
+                            .fontWeight(.bold)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(.red))
+                {
+                    ForEach(0..<16) { Index in
+                        Rectangle()
+                            .frame(height: 150)
+                    }
+                }
+                
+                Section(header: Text("Heading 2")
+                            .foregroundColor(.white)
+                            .fontWeight(.bold)
                             .frame(maxWidth: .infinity)
                             .padding()
                             .background(.red))
