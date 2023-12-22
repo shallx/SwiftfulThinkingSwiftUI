@@ -11,6 +11,7 @@ struct SafetyUnwrapBootcamp: View {
         NavigationView {
             VStack {
                 Text("Here we are practicing safe coding!")
+                // If let is 2 in one feature which null checks and assignss a variable
                 if let text = displayText {
                     Text(text)
                         .font(.title)
@@ -28,10 +29,11 @@ struct SafetyUnwrapBootcamp: View {
     }
     
     func loadData() {
-        if let userId = cUserId {
+        // If you use null check like this, u have to use ! in the variable
+        if cUserId != nil {
             isLoading = true
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                displayText = "This is new user \(userId)"
+                displayText = "This is new user \(cUserId!)"
                 isLoading = false
             }
         } else {
@@ -41,6 +43,7 @@ struct SafetyUnwrapBootcamp: View {
     }
     
     func loadData2() {
+        // Guard null checks and assigns a variable if not nil. If it is nill then else statement is executed
         guard let userId = cUserId else {
             displayText = "Error. There is no user id!"
             return

@@ -10,6 +10,7 @@ struct TabViewBootcamp: View {
                     Text("Home")
                 }
                 .tag(0)
+                .badge(2)
             Text("Browse")
                 .tabItem {
                     Image(systemName: "globe")
@@ -21,9 +22,10 @@ struct TabViewBootcamp: View {
                     Image(systemName: "person.fill")
                     Text("Profile")
                 }
+                .badge("!")
                 .tag(2)
         }
-        .tabViewStyle(PageTabViewStyle())
+//        .tabViewStyle(PageTabViewStyle())
     }
 }
 
